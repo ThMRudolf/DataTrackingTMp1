@@ -6,48 +6,41 @@ import xml.etree.ElementTree as ET
 import schedule
 import time
 import pandas as pd
+from lxml import etree
 
 url_current = '../data/Trace_current.xml'
-tree = ET.parse(url_current)
-root = tree.getroot()
-##### test #####
-element = root.findall(".//")
-#print("Elements of .//")
-#print(element)
-print('Test start')
-for element in root.findall(".//"):
-    print("Next Element")
-    print(element.tag, element.text)
-##### test end#####
 
-# Create a list to store dictionaries representing each position info
-Samples_list = []
-# Iterate through each <WorkOffsetk> element
-print('start running')
-#print(root.findall(".//Samples"))
-## ./Streams/DeviceStream/ComponentStream/Samples
-for Samples_elem in root.findall('.//'):
-    Samples_dict = {}
+def remove_namespace(tree):
+    for elem in tree.iter():
+        if '}' in elem.tag:
+            elem.tag = elem.tag.split('}', 1)[1]  # remove the namespace
+    return tree
+
+def xml_to_dataframe(xml_file):
+    tree = ET.parse(xml_file)
+    root = tree.getroot()
     
-    for child_elem in Samples_elem:
-        Samples_dict[child_elem.tag] = child_elem.text
-    Samples_list.append(Samples_dict)
+    # Remove namespaces
+    root = remove_namespace(root)
+    
+    # Convert XML to DataFrame
+    item_list = []
+    for item in root.findall('.//'):
+        # Extract the data you need based on your XML structure
+        itam_dict = {}
+    
+        for child_elem in item:
+            itam_dict[child_elem.tag] = child_elem.text
 
-df_Samples = pd.DataFrame(Samples_list)
-print("resulting Samples:")
-#print(df_Samples)
-#def job():
-#    #response = requests.get(url)
-#    xml_data = url #response.text
+        item_list.append(itam_dict)
+        
+    df = pd.DataFrame(item_list)
+    return df
 
-#    tree = ET.ElementTree(ET.fromstring(xml_data))
-#    root = tree.getroot()
+# Replace 'your_xml_file.xml' with the actual path to your XML file
+df = xml_to_dataframe(url_current)
 
-    # Now you can process or extract data from the XML using 'root' variable.
-
-# Schedule the job to run every minute
-#schedule.every(1).minutes.do(job)
-
-#while True:
-#    schedule.run_pending()
-#    time.sleep(1)
+# Now you have your XML data in a Pandas DataFrame
+print(df)
+print(df.columns)
+print(df["PathPosition"].dropna())
