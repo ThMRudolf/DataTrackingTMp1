@@ -1,0 +1,129 @@
+<MTConnectStreams xmlns:m="urn:mtconnect.org:MTConnectStreams:1.2" xmlns="urn:mtconnect.org:MTConnectStreams:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:mtconnect.org:MTConnectStreams:1.2 http://www.mtconnect.org/schemas/MTConnectStreams_1.2.xsd">
+<Header creationTime="2023-05-10T17:41:46.625Z" sender="NGC" instanceId="1683737829" version="1.2.0.1.2" bufferSize="333" firstSequence="5160" lastSequence="5259" nextSequence="5260"/>
+<Streams>
+<DeviceStream name="TM-1P" uuid="000">
+<ComponentStream component="Axis" componentId="x_axis" name="X">
+<Samples>
+<PathPosition dataItemId="x_axis_actual_position" timestamp="2023-05-10T17:40:54.240Z" sequence="5160" name="X_Axis_Actual_Position" subType="ACTUAL">-404.4854174874717</PathPosition>
+<PathPosition dataItemId="x_axis_actual_position" timestamp="2023-05-10T17:40:55.240Z" sequence="5166" name="X_Axis_Actual_Position" subType="ACTUAL">-435.2871183230719</PathPosition>
+<PathPosition dataItemId="x_axis_actual_position" timestamp="2023-05-10T17:40:56.241Z" sequence="5172" name="X_Axis_Actual_Position" subType="ACTUAL">-450.7776610008905</PathPosition>
+<PathPosition dataItemId="x_axis_actual_position" timestamp="2023-05-10T17:40:57.245Z" sequence="5177" name="X_Axis_Actual_Position" subType="ACTUAL">-443.5137453018194</PathPosition>
+<PathPosition dataItemId="x_axis_actual_position" timestamp="2023-05-10T17:40:58.245Z" sequence="5182" name="X_Axis_Actual_Position" subType="ACTUAL">-417.1216316119471</PathPosition>
+<PathPosition dataItemId="x_axis_actual_position" timestamp="2023-05-10T17:40:59.245Z" sequence="5189" name="X_Axis_Actual_Position" subType="ACTUAL">-384.3609571853078</PathPosition>
+<PathPosition dataItemId="x_axis_actual_position" timestamp="2023-05-10T17:41:00.245Z" sequence="5195" name="X_Axis_Actual_Position" subType="ACTUAL">-358.42467635119795</PathPosition>
+<PathPosition dataItemId="x_axis_actual_position" timestamp="2023-05-10T17:41:01.246Z" sequence="5201" name="X_Axis_Actual_Position" subType="ACTUAL">-351.8926944952184</PathPosition>
+<PathPosition dataItemId="x_axis_actual_position" timestamp="2023-05-10T17:41:02.246Z" sequence="5207" name="X_Axis_Actual_Position" subType="ACTUAL">-367.35880861432776</PathPosition>
+<PathPosition dataItemId="x_axis_actual_position" timestamp="2023-05-10T17:41:03.246Z" sequence="5213" name="X_Axis_Actual_Position" subType="ACTUAL">-399.1085442045309</PathPosition>
+<PathPosition dataItemId="x_axis_actual_position" timestamp="2023-05-10T17:41:04.247Z" sequence="5223" name="X_Axis_Actual_Position" subType="ACTUAL">-401.2545370398237</PathPosition>
+<PathPosition dataItemId="x_axis_actual_position" timestamp="2023-05-10T17:41:05.246Z" sequence="5232" name="X_Axis_Actual_Position" subType="ACTUAL">-399.19756201879005</PathPosition>
+<PathPosition dataItemId="x_axis_actual_position" timestamp="2023-05-10T17:41:06.246Z" sequence="5238" name="X_Axis_Actual_Position" subType="ACTUAL">-396.10741504422543</PathPosition>
+<PathPosition dataItemId="x_axis_actual_position" timestamp="2023-05-10T17:41:07.247Z" sequence="5245" name="X_Axis_Actual_Position" subType="ACTUAL">-420.0475502060887</PathPosition>
+<PathPosition dataItemId="x_axis_actual_position" timestamp="2023-05-10T17:41:08.246Z" sequence="5251" name="X_Axis_Actual_Position" subType="ACTUAL">-445.097922192882</PathPosition>
+<PathPosition dataItemId="x_axis_actual_position" timestamp="2023-05-10T17:41:09.246Z" sequence="5255" name="X_Axis_Actual_Position" subType="ACTUAL">-450.61953104237574</PathPosition>
+</Samples>
+</ComponentStream>
+<ComponentStream component="Axis" componentId="y_axis" name="Y">
+<Samples>
+<PathPosition dataItemId="y_axis_actual_position" timestamp="2023-05-10T17:40:54.240Z" sequence="5161" name="Y_Axis_Actual_Position" subType="ACTUAL">-77.65658375378014</PathPosition>
+<PathPosition dataItemId="y_axis_actual_position" timestamp="2023-05-10T17:40:55.240Z" sequence="5167" name="Y_Axis_Actual_Position" subType="ACTUAL">-90.92195330019393</PathPosition>
+<PathPosition dataItemId="y_axis_actual_position" timestamp="2023-05-10T17:40:56.241Z" sequence="5173" name="Y_Axis_Actual_Position" subType="ACTUAL">-120.66684320433791</PathPosition>
+<PathPosition dataItemId="y_axis_actual_position" timestamp="2023-05-10T17:40:57.245Z" sequence="5178" name="Y_Axis_Actual_Position" subType="ACTUAL">-154.27405999653655</PathPosition>
+<PathPosition dataItemId="y_axis_actual_position" timestamp="2023-05-10T17:40:58.245Z" sequence="5183" name="Y_Axis_Actual_Position" subType="ACTUAL">-174.96636805098746</PathPosition>
+<PathPosition dataItemId="y_axis_actual_position" timestamp="2023-05-10T17:40:59.245Z" sequence="5190" name="Y_Axis_Actual_Position" subType="ACTUAL">-174.61041604946604</PathPosition>
+<PathPosition dataItemId="y_axis_actual_position" timestamp="2023-05-10T17:41:00.246Z" sequence="5196" name="Y_Axis_Actual_Position" subType="ACTUAL">-153.34954384790066</PathPosition>
+<PathPosition dataItemId="y_axis_actual_position" timestamp="2023-05-10T17:41:01.246Z" sequence="5202" name="Y_Axis_Actual_Position" subType="ACTUAL">-119.5924287326652</PathPosition>
+<PathPosition dataItemId="y_axis_actual_position" timestamp="2023-05-10T17:41:02.246Z" sequence="5208" name="Y_Axis_Actual_Position" subType="ACTUAL">-90.79527635938997</PathPosition>
+<PathPosition dataItemId="y_axis_actual_position" timestamp="2023-05-10T17:41:03.246Z" sequence="5214" name="Y_Axis_Actual_Position" subType="ACTUAL">-77.59816195478504</PathPosition>
+<PathPosition dataItemId="y_axis_actual_position" timestamp="2023-05-10T17:41:04.247Z" sequence="5224" name="Y_Axis_Actual_Position" subType="ACTUAL">-103.28442417651289</PathPosition>
+<PathPosition dataItemId="y_axis_actual_position" timestamp="2023-05-10T17:41:05.246Z" sequence="5233" name="Y_Axis_Actual_Position" subType="ACTUAL">-123.58874856278914</PathPosition>
+<PathPosition dataItemId="y_axis_actual_position" timestamp="2023-05-10T17:41:06.246Z" sequence="5239" name="Y_Axis_Actual_Position" subType="ACTUAL">-90.1946421133429</PathPosition>
+<PathPosition dataItemId="y_axis_actual_position" timestamp="2023-05-10T17:41:07.247Z" sequence="5246" name="Y_Axis_Actual_Position" subType="ACTUAL">-81.21831932489378</PathPosition>
+<PathPosition dataItemId="y_axis_actual_position" timestamp="2023-05-10T17:41:08.246Z" sequence="5252" name="Y_Axis_Actual_Position" subType="ACTUAL">-103.51617119143029</PathPosition>
+<PathPosition dataItemId="y_axis_actual_position" timestamp="2023-05-10T17:41:09.246Z" sequence="5256" name="Y_Axis_Actual_Position" subType="ACTUAL">-119.611996479481</PathPosition>
+</Samples>
+</ComponentStream>
+<ComponentStream component="Controller" componentId="cont1" name="MachineController">
+<Samples>
+<AccumulatedTime dataItemId="tcycle" timestamp="2023-05-10T17:40:55.240Z" sequence="5162" name="ThisCycle">379</AccumulatedTime>
+<SpindleSpeed dataItemId="sspeed" timestamp="2023-05-10T17:40:55.240Z" sequence="5164" name="SpindleSpeed" subType="ACTUAL">1999.8046875</SpindleSpeed>
+<AccumulatedTime dataItemId="tcycle" timestamp="2023-05-10T17:40:56.241Z" sequence="5168" name="ThisCycle">380</AccumulatedTime>
+<SpindleSpeed dataItemId="sspeed" timestamp="2023-05-10T17:40:56.241Z" sequence="5170" name="SpindleSpeed" subType="ACTUAL">1999.51171875</SpindleSpeed>
+<AccumulatedTime dataItemId="tcycle" timestamp="2023-05-10T17:40:57.244Z" sequence="5174" name="ThisCycle">381</AccumulatedTime>
+<AccumulatedTime dataItemId="tcycle" timestamp="2023-05-10T17:40:58.244Z" sequence="5179" name="ThisCycle">382</AccumulatedTime>
+<AccumulatedTime dataItemId="tcycle" timestamp="2023-05-10T17:40:59.244Z" sequence="5184" name="ThisCycle">383</AccumulatedTime>
+<SpindleSpeed dataItemId="sspeed" timestamp="2023-05-10T17:40:59.245Z" sequence="5186" name="SpindleSpeed" subType="ACTUAL">1999.8046875</SpindleSpeed>
+<AccumulatedTime dataItemId="tcycle" timestamp="2023-05-10T17:41:00.245Z" sequence="5191" name="ThisCycle">384</AccumulatedTime>
+<SpindleSpeed dataItemId="sspeed" timestamp="2023-05-10T17:41:00.245Z" sequence="5193" name="SpindleSpeed" subType="ACTUAL">1999.658203125</SpindleSpeed>
+<AccumulatedTime dataItemId="tcycle" timestamp="2023-05-10T17:41:01.245Z" sequence="5197" name="ThisCycle">385</AccumulatedTime>
+<SpindleSpeed dataItemId="sspeed" timestamp="2023-05-10T17:41:01.246Z" sequence="5199" name="SpindleSpeed" subType="ACTUAL">1999.365234375</SpindleSpeed>
+<AccumulatedTime dataItemId="tcycle" timestamp="2023-05-10T17:41:02.246Z" sequence="5203" name="ThisCycle">386</AccumulatedTime>
+<SpindleSpeed dataItemId="sspeed" timestamp="2023-05-10T17:41:02.246Z" sequence="5205" name="SpindleSpeed" subType="ACTUAL">1999.658203125</SpindleSpeed>
+<AccumulatedTime dataItemId="tcycle" timestamp="2023-05-10T17:41:03.246Z" sequence="5209" name="ThisCycle">387</AccumulatedTime>
+<SpindleSpeed dataItemId="sspeed" timestamp="2023-05-10T17:41:03.246Z" sequence="5211" name="SpindleSpeed" subType="ACTUAL">1999.51171875</SpindleSpeed>
+<AccumulatedTime dataItemId="tcycle" timestamp="2023-05-10T17:41:04.246Z" sequence="5217" name="ThisCycle">388</AccumulatedTime>
+<SpindleSpeed dataItemId="sspeed" timestamp="2023-05-10T17:41:04.246Z" sequence="5219" name="SpindleSpeed" subType="ACTUAL">1999.8046875</SpindleSpeed>
+<AccumulatedTime dataItemId="tcycle" timestamp="2023-05-10T17:41:05.245Z" sequence="5226" name="ThisCycle">389</AccumulatedTime>
+<SpindleSpeed dataItemId="sspeed" timestamp="2023-05-10T17:41:05.246Z" sequence="5228" name="SpindleSpeed" subType="ACTUAL">1999.51171875</SpindleSpeed>
+<AccumulatedTime dataItemId="tcycle" timestamp="2023-05-10T17:41:06.246Z" sequence="5235" name="ThisCycle">390</AccumulatedTime>
+<AccumulatedTime dataItemId="tcycle" timestamp="2023-05-10T17:41:07.246Z" sequence="5240" name="ThisCycle">392</AccumulatedTime>
+<SpindleSpeed dataItemId="sspeed" timestamp="2023-05-10T17:41:07.246Z" sequence="5242" name="SpindleSpeed" subType="ACTUAL">1999.658203125</SpindleSpeed>
+<AccumulatedTime dataItemId="tcycle" timestamp="2023-05-10T17:41:08.245Z" sequence="5247" name="ThisCycle">393</AccumulatedTime>
+<SpindleSpeed dataItemId="sspeed" timestamp="2023-05-10T17:41:08.245Z" sequence="5249" name="SpindleSpeed" subType="ACTUAL">1999.51171875</SpindleSpeed>
+<AccumulatedTime dataItemId="tcycle" timestamp="2023-05-10T17:41:10.246Z" sequence="5257" name="ThisCycle">394</AccumulatedTime>
+</Samples>
+<Events>
+<Message dataItemId="machineruntime" timestamp="2023-05-10T17:40:55.240Z" sequence="5165" name="MachineRunTime">765097</Message>
+<Message dataItemId="machineruntime" timestamp="2023-05-10T17:40:56.241Z" sequence="5171" name="MachineRunTime">765098</Message>
+<Message dataItemId="machineruntime" timestamp="2023-05-10T17:40:57.244Z" sequence="5176" name="MachineRunTime">765099</Message>
+<Message dataItemId="machineruntime" timestamp="2023-05-10T17:40:58.245Z" sequence="5181" name="MachineRunTime">765100</Message>
+<Message dataItemId="machineruntime" timestamp="2023-05-10T17:40:59.245Z" sequence="5187" name="MachineRunTime">765101</Message>
+<Message dataItemId="machineruntime" timestamp="2023-05-10T17:41:00.245Z" sequence="5194" name="MachineRunTime">765102</Message>
+<Message dataItemId="machineruntime" timestamp="2023-05-10T17:41:01.246Z" sequence="5200" name="MachineRunTime">765103</Message>
+<Message dataItemId="machineruntime" timestamp="2023-05-10T17:41:02.246Z" sequence="5206" name="MachineRunTime">765104</Message>
+<Message dataItemId="machineruntime" timestamp="2023-05-10T17:41:03.246Z" sequence="5212" name="MachineRunTime">765105</Message>
+<Message dataItemId="m30c1" timestamp="2023-05-10T17:41:04.246Z" sequence="5215" name="M30Counter1">5536</Message>
+<Message dataItemId="m30c2" timestamp="2023-05-10T17:41:04.246Z" sequence="5216" name="M30Counter2">5536</Message>
+<Message dataItemId="machineruntime" timestamp="2023-05-10T17:41:04.246Z" sequence="5220" name="MachineRunTime">765106</Message>
+<Message dataItemId="machineruntime" timestamp="2023-05-10T17:41:05.246Z" sequence="5229" name="MachineRunTime">765107</Message>
+<Message dataItemId="machineruntime" timestamp="2023-05-10T17:41:06.246Z" sequence="5237" name="MachineRunTime">765108</Message>
+<Message dataItemId="machineruntime" timestamp="2023-05-10T17:41:07.246Z" sequence="5243" name="MachineRunTime">765109</Message>
+<Message dataItemId="machineruntime" timestamp="2023-05-10T17:41:08.246Z" sequence="5250" name="MachineRunTime">765110</Message>
+<Message dataItemId="machineruntime" timestamp="2023-05-10T17:41:09.246Z" sequence="5254" name="MachineRunTime">765111</Message>
+<Message dataItemId="machineruntime" timestamp="2023-05-10T17:41:10.246Z" sequence="5259" name="MachineRunTime">765112</Message>
+</Events>
+</ComponentStream>
+<ComponentStream component="Spindles" componentId="spindles" name="Spindles">
+<Events>
+<Message dataItemId="spindletime" timestamp="2023-05-10T17:40:55.240Z" sequence="5163" name="SpindleTime">85643</Message>
+<Message dataItemId="spindletime" timestamp="2023-05-10T17:40:56.241Z" sequence="5169" name="SpindleTime">85644</Message>
+<Message dataItemId="spindletime" timestamp="2023-05-10T17:40:57.244Z" sequence="5175" name="SpindleTime">85645</Message>
+<Message dataItemId="spindletime" timestamp="2023-05-10T17:40:58.245Z" sequence="5180" name="SpindleTime">85646</Message>
+<Message dataItemId="spindletime" timestamp="2023-05-10T17:40:59.245Z" sequence="5185" name="SpindleTime">85647</Message>
+<Message dataItemId="spindletime" timestamp="2023-05-10T17:41:00.245Z" sequence="5192" name="SpindleTime">85648</Message>
+<Message dataItemId="spindletime" timestamp="2023-05-10T17:41:01.246Z" sequence="5198" name="SpindleTime">85649</Message>
+<Message dataItemId="spindletime" timestamp="2023-05-10T17:41:02.246Z" sequence="5204" name="SpindleTime">85650</Message>
+<Message dataItemId="spindletime" timestamp="2023-05-10T17:41:03.246Z" sequence="5210" name="SpindleTime">85651</Message>
+<Message dataItemId="spindletime" timestamp="2023-05-10T17:41:04.246Z" sequence="5218" name="SpindleTime">85652</Message>
+<Message dataItemId="spindletime" timestamp="2023-05-10T17:41:05.246Z" sequence="5227" name="SpindleTime">85653</Message>
+<Message dataItemId="spindletime" timestamp="2023-05-10T17:41:06.246Z" sequence="5236" name="SpindleTime">85654</Message>
+<Message dataItemId="spindletime" timestamp="2023-05-10T17:41:07.246Z" sequence="5241" name="SpindleTime">85655</Message>
+<Message dataItemId="spindletime" timestamp="2023-05-10T17:41:08.245Z" sequence="5248" name="SpindleTime">85656</Message>
+<Message dataItemId="spindletime" timestamp="2023-05-10T17:41:09.246Z" sequence="5253" name="SpindleTime">85657</Message>
+<Message dataItemId="spindletime" timestamp="2023-05-10T17:41:10.246Z" sequence="5258" name="SpindleTime">85658</Message>
+</Events>
+</ComponentStream>
+<ComponentStream component="Activecodes" componentId="activecodes" name="ActiveCodes">
+<Events>
+<Message dataItemId="addresscodes" timestamp="2023-05-10T17:40:59.245Z" sequence="5188" name="AddressCodes">0.,0.,0.,0.,0.,2000.000,0.,0.,0.,0.,0.,0.,3.000,0,O00000,0,0.,50.000,2000.000,1.000,0.,0.,0.,0.,50.000,100.000</Message>
+<Message dataItemId="addresscodes" timestamp="2023-05-10T17:41:04.246Z" sequence="5221" name="AddressCodes">0.,0.,0.,0.,0.,2000.000,0.,0.,0.,0.,0.,0.,6.000,0,O00000,0,0.,50.000,2000.000,1.000,0.,0.,0.,0.,0.,100.000</Message>
+<Message dataItemId="dhmtcodes" timestamp="2023-05-10T17:41:04.247Z" sequence="5222" name="DHMT_Codes">00,00,06,01</Message>
+<Message dataItemId="gcodes" timestamp="2023-05-10T17:41:04.247Z" sequence="5225" name="Gcodes">G01,G17,G90,G94,G21,G40,G43,G80,G98,G50,G59,G269,G64,G69,G170,G255</Message>
+<Message dataItemId="addresscodes" timestamp="2023-05-10T17:41:05.246Z" sequence="5230" name="AddressCodes">0.,0.,0.,0.,0.,2000.000,0.,0.,0.,0.,0.,0.,3.000,0,O00000,0,0.,50.000,2000.000,1.000,0.,0.,0.,0.,50.000,100.000</Message>
+<Message dataItemId="dhmtcodes" timestamp="2023-05-10T17:41:05.246Z" sequence="5231" name="DHMT_Codes">00,00,03,01</Message>
+<Message dataItemId="gcodes" timestamp="2023-05-10T17:41:05.246Z" sequence="5234" name="Gcodes">G03,G17,G90,G94,G21,G40,G43,G80,G98,G50,G59,G269,G64,G69,G170,G255</Message>
+<Message dataItemId="addresscodes" timestamp="2023-05-10T17:41:07.246Z" sequence="5244" name="AddressCodes">0.,0.,0.,0.,0.,2000.000,0.,0.,0.,0.,0.,0.,3.000,0,O00000,0,0.,50.000,2000.000,1.000,0.,0.,0.,0.,-50.000,100.000</Message>
+</Events>
+</ComponentStream>
+</DeviceStream>
+</Streams>
+</MTConnectStreams>
