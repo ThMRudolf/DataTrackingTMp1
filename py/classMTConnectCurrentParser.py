@@ -1,9 +1,24 @@
 import xml.etree.ElementTree as ET
 
 class MTConnectCurrentParser:
-    def __init__(self, xml_file):
-        self.tree = ET.parse(xml_file)
+    def __init__(self, source):
+        if source.startswith('http://') or source.startswith('https://'):
+            # Fetch XML from URL
+            response = requests.get(source)
+            response.raise_for_status()  # Raise an error for bad responses (e.g., 404)
+            xml_content = response.text
+        else:
+            # Load XML from local file
+            with open(source, 'r') as file:
+                xml_content = file.read()
+
+        # Parse the XML
+        self.tree = ET.ElementTree(ET.fromstring(xml_content))
         self.root = self.tree.getroot()
+        self.namespace = {'m': 'urn:mtconnect.org:MTConnectStreams:1.2'}
+        #if input is local file    
+        #self.tree = ET.parse(xml_file)
+        #self.root = self.tree.getroot()
 
     def get_device_streams(self):
         device_streams = []
