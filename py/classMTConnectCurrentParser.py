@@ -7,6 +7,9 @@ class MTConnectCurrentParser:
 
     def get_device_streams(self):
         device_streams = []
+        # if input is url
+        # for device_stream in self.root.findall('.//m:DeviceStream', self.namespace):
+        # if input is local file
         for device in self.root.findall('.//{urn:mtconnect.org:MTConnectStreams:1.2}DeviceStream'):
             name = device.get('name')
             uuid = device.get('uuid')
@@ -15,6 +18,9 @@ class MTConnectCurrentParser:
 
     def get_component_streams_with_events(self, device_name):
         component_streams = []
+        # if inout is url
+        #for component_stream in self.root.findall(f".//m:DeviceStream[@name='{device_name}']/m:ComponentStream", self.namespace):
+        # if input is a local file
         for device in self.root.findall(f".//{{urn:mtconnect.org:MTConnectStreams:1.2}}DeviceStream[@name='{device_name}']"):
             for component in device.findall('.//{urn:mtconnect.org:MTConnectStreams:1.2}ComponentStream'):
                 component_name = component.get('name')

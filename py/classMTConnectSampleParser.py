@@ -29,6 +29,9 @@ class MTConnectSampleParser:
 
     def get_samples(self, component_id):
         samples = []
+        # if input is url
+        #for sample in self.root.findall(f".//m:ComponentStream[@componentId='{component_id}']/m:Samples/*", self.namespace):
+        # if input is local file
         for sample in self.root.findall(f".//m:ComponentStream[@componentId='{component_id}']/m:Samples/*", self.namespace):
             sample_info = {
                 'type': sample.tag.split('}')[-1],  # Extract the sample type (e.g., PathPosition)
@@ -44,6 +47,9 @@ class MTConnectSampleParser:
 
     def get_events(self, component_id):
         events = []
+        # if input is url
+        # for event in self.root.findall(f".//m:ComponentStream[@componentId='{component_id}']/m:Events/*", self.namespace):
+        # if input is local file 
         for event in self.root.findall(f".//m:ComponentStream[@componentId='{component_id}']/m:Events/*", self.namespace):
             event_info = {
                 'type': event.tag.split('}')[-1],  # Extract the event type (e.g., Message)
